@@ -1,9 +1,10 @@
 from helper import *
 
 def main():
+    # input information here
     departure = 'YVR'
-    destination = 'HKG'
-    start_date = '2024-06-01'
+    destination = 'JFK'
+    start_date = '2024-07-01'
     end_date = '2024-09-05'
 
     driver = create_driver()
