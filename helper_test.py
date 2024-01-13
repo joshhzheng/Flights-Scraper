@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 from unittest.mock import MagicMock
-from helper import create_driver, build_url, get_flight_elements, extract_company_names_and_prices, create_dataframe, sort_dataframe
+from helper import *
 
 class TestHelperFunctions(unittest.TestCase):
 
@@ -44,7 +44,6 @@ class TestHelperFunctions(unittest.TestCase):
 
         expected_df = pd.DataFrame({'Airline': ['Airline1', 'Airline2'], 'Price': ['100', '150']})
         pd.testing.assert_frame_equal(df, expected_df)
-
 
     def test_sort_dataframe(self):
         mock_df = MagicMock()
