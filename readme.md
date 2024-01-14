@@ -48,3 +48,5 @@ Zip the deployment packages and upload to AWS Lambda
 ```bash
 zip -r deployment_package.zip lambda_function.py main.py helper.py requirements.txt
 ```
+
+Note: add the `AWSSDKPandas-Python312` layer to import Pandas
