@@ -1,4 +1,4 @@
-# Flight Web Scraper
+# Kayak.com Flights Web Scraper
 
 This Python script allows you to scrape flight information from the Kayak website for a specific route and date range.
 
