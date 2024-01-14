@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 from unittest.mock import MagicMock
-from helper import *
+from .components.helper import *
 
 class TestHelperFunctions(unittest.TestCase):
 

@@ -1,4 +1,4 @@
-from helper import *
+from components.helper import *
 
 def main():
     # input information here

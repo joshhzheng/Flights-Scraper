@@ -1,4 +1,3 @@
-import json
 import boto3
 import pandas as pd
 from main import *
@@ -7,6 +6,7 @@ def format_dataframe_to_text(df):
     formatted_text = df.to_string(index=False)
     return formatted_text
 
+# for aws lambda and ses
 def lambda_handler(event, context):
     main()
     df_sorted = main.df_sorted
