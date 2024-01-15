@@ -7,6 +7,7 @@ This Python script allows you to scrape flight information from the Kayak websit
 Before running the script, make sure you have the following installed:
 
 - Python 3.x
+- Pip or Pip3
 - Required Python libraries: Selenium, BeautifulSoup, Pandas
 
 ```bash
