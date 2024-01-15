@@ -9,6 +9,8 @@ Before running the script, make sure you have the following installed:
 - Python 3.x
 - Pip or Pip3
 
+Install required Python Libraries
+
 ```bash
 > $ pip install selenium beautifulsoup4 pandas
 # or
