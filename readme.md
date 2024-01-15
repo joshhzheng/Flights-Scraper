@@ -10,9 +10,9 @@ Before running the script, make sure you have the following installed:
 - Required Python libraries: Selenium, BeautifulSoup, Pandas
 
 ```bash
-pip install selenium beautifulsoup4 pandas
+> $ pip install selenium beautifulsoup4 pandas
 # or
-pip3 install selenium beautifulsoup4 pandas
+> $ pip3 install selenium beautifulsoup4 pandas
 ```
 
 ## Usage 
@@ -20,8 +20,8 @@ pip3 install selenium beautifulsoup4 pandas
 Clone the repository or download the files
 
 ```bash
-git clone https://github.com/your-username/flight-web-scraper.git
-cd flight-web-scraper
+> $ git clone https://github.com/your-username/flight-web-scraper.git
+> $ cd flight-web-scraper
 ```
 
 Update variables names
@@ -36,9 +36,9 @@ end_date = ''
 Run the script
 
 ```bash
-python main.py
+> $ python main.py
 # or
-python3 main.py
+> $ python3 main.py
 ```
 
 ## Optional: Deploy to AWS Lambda
@@ -46,7 +46,7 @@ python3 main.py
 Zip the deployment packages and upload to AWS Lambda
 
 ```bash
-zip -r deployment_package.zip lambda_function.py main.py helper.py requirements.txt
+$ zip -r deployment_package.zip lambda_function.py main.py helper.py requirements.txt
 ```
 
 Note: add the `AWSSDKPandas-Python312` layer to import Pandas
