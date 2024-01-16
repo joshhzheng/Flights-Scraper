@@ -3,7 +3,7 @@ from components.helper import *
 def main():
     # input information here
     departure = 'YVR'
-    destination = 'HKG'
+    destination = 'JFK'
     start_date = '2024-08-03'
     end_date = '2024-10-20'
 
