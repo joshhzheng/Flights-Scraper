@@ -43,12 +43,15 @@ Run the script
 > $ python3 main.py
 ```
 
-## Optional: Deploy to AWS Lambda
+## DISCLAIMER⚠️: Deploying to AWS Lambda 
 
-Zip the deployment packages and upload to AWS Lambda
+### Disclaimer:
+This web scraper is designed for educational purposes only. Deploying this code to scrape data from Kayak.com is against the website's terms of service. Unauthorized scraping of data may violate Kayak.com's policies and result in legal consequences. The developer is not responsible for any misuse or violation of third-party terms of service.
 
-```bash
-$ zip -r deployment_package.zip lambda_function.py main.py helper.py requirements.txt
-```
+### Use at Your Own Risk:
+Deploying this web scraper to AWS Lambda or any other platform for scraping Kayak.com is strictly prohibited. The developer does not endorse or encourage any actions that breach terms of service agreements. Users are solely responsible for the consequences of deploying and using this code.
 
-Note: add the `AWSSDKPandas-Python312` layer to import Pandas
+### Educational Intent:
+This project is intended to demonstrate web scraping techniques and should be used solely for educational purposes. Any use of this code for scraping live websites without permission is not supported or condoned.
+
+By using or contributing to this project, you acknowledge and agree to abide by the terms of service of the respective websites and accept all associated risks.
